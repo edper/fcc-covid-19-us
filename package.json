@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "covid19US",
+  "description": "Covid-19 US Tracking App",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
@@ -12,8 +12,13 @@
     "test": "run-p --race dev cy:run"
   },
   "dependencies": {
+    "axios": "^0.19.2",
+    "bulma": "^0.8.2",
+    "chart.js": "^2.9.3",
     "compression": "^1.7.1",
+    "moment": "^2.25.3",
     "polka": "next",
+    "rollup-plugin-css-only": "^2.0.0",
     "sirv": "^0.4.0"
   },
   "devDependencies": {
