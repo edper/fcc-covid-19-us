@@ -8,7 +8,8 @@
 			return {usStats};
 
 		} catch (e) {
-			console.log(e)
+			this.error(500,"There was an error in the API. Please come back again in 5 minutes.");
+			return ;
 		}
 
 	}
