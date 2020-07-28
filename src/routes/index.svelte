@@ -19,6 +19,7 @@
 	import CovidStat from '../components/CovidStat.svelte';
 	import CovidChart from '../components/CovidChart.svelte';
 	import TableContainer from '../components/TableContainer.svelte';
+import Table from '../components/Table.svelte';
 	export let usStats;
 	console.log(usStats,"US Stats");
 </script>
@@ -32,6 +33,6 @@
 	</div>
 </div>
 
-<CovidStat/>
+<CovidStat {...usStats}/>
 <CovidChart/>
 <TableContainer/>
